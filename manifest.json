@@ -1,0 +1,19 @@
+{
+    "manifest_version" : 2,
+    "name" : "Extension Activity Monitor",
+    "version" : "1.0",
+    "description" : "Adds a browser action icon to toolbar. Click the button to see extensions active on current tab. Click 'Details' to see activity details of all installed extensions.",
+    "homepage_url" : "https://github.com/ManishAradwad/Extension_Activity_Monitor/tree/master",
+    "icons" : {
+        "48" : "icons/eam-48.png",
+        "32" : "icons/eam-32.png"
+    },
+    "permissions" : [
+        "activeTab"
+    ],
+    "browser_action" : {
+        "default_icon" : "icons/eam-48.png",
+        "default_title" : "Extension Activity Monitor",
+        "default_popup" : "popup/active_extensions.html"
+    } 
+}
