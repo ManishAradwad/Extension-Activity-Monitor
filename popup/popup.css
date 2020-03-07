@@ -1,0 +1,19 @@
+html, body {
+    width: 200px;
+  }
+
+#extension_name {
+margin: 1% auto;
+padding: 4px;
+text-align: center;
+font-size: 1em;
+cursor: pointer;
+}
+
+.extension_name:hover {
+background-color: #CFF2F2;
+}
+
+.extension_name {
+background-color: #E5F2F2;
+}

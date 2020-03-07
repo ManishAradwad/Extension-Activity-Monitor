@@ -14,6 +14,6 @@
     "browser_action" : {
         "default_icon" : "icons/eam-48.png",
         "default_title" : "Extension Activity Monitor",
-        "default_popup" : "popup/active_extensions.html"
+        "default_popup" : "popup/popup.html"
     } 
 }
