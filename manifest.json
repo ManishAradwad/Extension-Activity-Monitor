@@ -9,11 +9,24 @@
         "32" : "icons/eam-32.png"
     },
     "permissions" : [
-        "activeTab"
+        "storage",
+        "unlimitedStorage",
+        "downloads",
+        "downloads.open",
+        "management",
+        "tabs",
+        "webNavigation"
     ],
     "browser_action" : {
-        "default_icon" : "icons/eam-48.png",
+        "browser_style": true,
+        "default_icon" : {
+            "32": "icons/eam-32.png", 
+            "48": "icons/eam-48.png"
+        },
         "default_title" : "Extension Activity Monitor",
         "default_popup" : "popup/popup.html"
-    } 
+    }, 
+    "background" : {
+        "scripts": ["background.js"]
+    }
 }
