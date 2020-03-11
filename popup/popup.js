@@ -18,7 +18,7 @@ document.addEventListener("click", function(e) {
   }
 
   browser.tabs.create({
-    url: "extension_activity_page/activity_page.html"
+    url: browser.runtime.getURL("extension_activity_page/activity_page.html")
   });
 
 });

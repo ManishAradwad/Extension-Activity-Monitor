@@ -12,10 +12,10 @@
         "storage",
         "unlimitedStorage",
         "downloads",
-        "downloads.open",
         "management",
         "tabs",
-        "webNavigation"
+        "webNavigation",
+        "sessions"
     ],
     "browser_action" : {
         "browser_style": true,
